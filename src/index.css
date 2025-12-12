@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* DM Sans */
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+/* DM Mono */
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./assets/fonts/DMMono-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./assets/fonts/DMMono-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
