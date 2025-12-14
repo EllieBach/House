@@ -8,7 +8,7 @@ type ButtonProps = {
 
 const Button = ({ variant = 'dark', children, size }: ButtonProps) => {
   const baseClasses =
-    'uppercase font-medium flex items-center justify-center'
+    'uppercase font-medium flex items-center justify-center cursor-pointer transition-opacity hover:opacity-80'
 
   const variants = {
     dark: 'bg-[#1E1E1E] text-white',
