@@ -1,10 +1,3 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
 @import "tailwindcss";
-
-/* DM Sans */
-@font-face {
-  font-family: 'DM Sans';
-  src: url('./assets/fonts/DMSans.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
-}
-

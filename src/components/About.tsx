@@ -4,15 +4,15 @@ export default function About() {
       <div className="max-w-5xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-[420px_420px] gap-6 justify-center">
           <div className="flex flex-col gap-3">
-            <h2 className="text-3xl font-mono font-medium">
+            <h2 style={{ fontFamily: 'DM Mono' }}className="text-3xl font-medium">
               Lorem ipsum dolor
             </h2>
-            <p className="text-base leading-relaxed">
+            <p style={{ fontFamily: 'DM Sans' }} className="text-base leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
               erat tempor, fringilla nunc vitae, laoreet velit. Suspendisse eu
               odio.
             </p>
-            <p className="text-sm leading-relaxed">
+            <p style={{ fontFamily: 'DM Sans' }} className="text-sm leading-relaxed">
               dapibus molestie nec quis ipsum. Pellentesque pretium finibus
               vulputate. Praesent et urna ultricies, varius ipsum eget, iaculis
               ante. Pellentesque quis mi tempus elit lobortis cursus. Etiam vel
@@ -25,7 +25,7 @@ export default function About() {
           </div>
 
           <div className="flex flex-col gap-3">
-            <p className="text-sm leading-relaxed">
+            <p style={{ fontFamily: 'DM Sans' }} className="text-sm leading-relaxed">
               Morbi ornare sagittis dui, at dictum nulla bibendum non. Nullam
               rhoncus quam metus, id bibendum justo ultricies et. Integer nec
               nisl turpis. Nunc eget pulvinar urna. Duis mattis porttitor

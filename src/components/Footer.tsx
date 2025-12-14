@@ -9,14 +9,14 @@ export default function Footer() {
         <div className="max-w-[1850px] mx-auto px-5 h-auto md:h-[620px] flex flex-col justify-between">
 
    
-          <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
-            <ul className="list-none space-y-2 font-mono font-medium">
+          <div style={{ fontFamily: 'DM Sans' }} className="flex flex-col md:flex-row gap-8 items-start justify-between pt-6 md:pt-8">
+            <ul style={{ fontSize: '0.9375rem', fontWeight: 300 }} className="list-none space-y-2">
               <li>Våra hus</li>
               <li>Tillval</li>
               <li>Hållbarhet</li>
             </ul>
 
-            <p className="max-w-[245px] text-sm md:text-base md:text-left leading-relaxed">
+            <p style={{ fontSize: '0.9375rem', fontWeight: 300 }} className="max-w-[245px] md:text-left leading-relaxed">
               Morbi ornare sagittis dui, at dictum nulla bibendum non. Nullam rhoncus
               quam metus, id bibendum justo ultricies et. Integer nec nisl turpis.
               Nunc eget pulvinar urna.
@@ -24,7 +24,7 @@ export default function Footer() {
           </div>
 
       
-          <div className="flex justify-center items-end">
+          <div className="flex justify-start items-end">
             <div className="overflow-hidden h-auto md:h-[300px] w-full flex justify-center">
               <img
                 src={housetext}

@@ -24,18 +24,18 @@ function Hero() {
 
       {/* Hero content */}
       <div className="relative md:absolute md:top-0 md:left-[65%] md:-translate-x-0 md:translate-y-[50px] z-10 w-full px-0 h-auto md:h-[697px] flex flex-col justify-center text-white pt-8 md:pt-0 md:pr-8">
-        <div className="max-w-xl flex flex-col items-start text-left gap-y-2 sm:gap-y-4">
+        <div className="max-w-xl flex flex-col items-start text-left gap-y-2 sm:gap-y-4 pb-[20px] sm:pb-0">
           <h1
-            className="text-[28px] sm:text-[32px] md:text-[34px] font-mono font-medium leading-snug"
+            style={{ fontFamily: 'DM Mono' }} className="text-[28px] sm:text-[32px] md:text-[34px]  font-medium leading-snug"
           >
             Unika hus i<br /> en unik miljö
           </h1>
-          <p className="w-full max-w-full sm:max-w-[450px] font-sans text-sm sm:text-base md:text-[18px] leading-relaxed">
+          <p style={{ fontFamily: 'DM Sans' }} className="w-full max-w-full sm:max-w-[450px] text-sm sm:text-base md:text-[18px] leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
             erat tempor, fringilla nunc vitae, laoreet velit. Suspendisse eu
             tortor eu odio dapibus molestie nec quis ipsum.
           </p>
-          <div className="mt-2 sm:mt-4">
+          <div style={{ fontFamily: 'DM Sans' }} className="mt-2 sm:mt-4">
             <Button size="responsive">Läs mer</Button>
           </div>
         </div>
