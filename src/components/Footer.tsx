@@ -26,7 +26,7 @@ export default function Footer() {
           <img
             src={housetext}
             alt="text house in big letters"
-            className="w-[1376px] h-auto md:h-[366px] max-w-full object-contain"
+            className="w-[1376px] h-auto md:h-[390px] max-w-full object-contain"
           />
         </div>
       </div>
