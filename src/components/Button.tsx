@@ -12,7 +12,7 @@ const Button = ({ variant = 'dark', children, size }: ButtonProps) => {
 
   const variants = {
     dark: 'bg-[#1E1E1E] text-white',
-    light: 'bg-[] text-[#1E1E1E]',
+    light: 'bg-white text-[#1E1E1E]',
   }
 
   // Responsive size
